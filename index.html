@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/Normalize.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <title>Evclid</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 style="height:0;width:0; font-size:0;">Евклид - проектные системы любой сложности</h1>
+    <div class="header-container">
+      <a class="logo" href="#"><img class="logo-mob" src="img/logo.png" alt="Евклид"></a>
+      <nav class="nav">
+        <ul class="nav-ul">
+          <li class="nav-li"><a class="a-nav" href="#">О нас</a></li>
+          <li class="nav-li"><a class="a-nav" href="#">Проекты</a></li>
+          <li class="nav-li"><a class="a-nav" href="#">Этапы</a></li>
+          <li class="nav-li"><a class="a-nav" href="#">Отзывы</a></li>
+          <li><a class="a-nav" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <form aria-label="Поиск" class="container-search" action=" https://jsonplaceholder.typicode.com/posts" method="POST">
+        <input aria-label="поиск" type="search" id="search" name="search" placeholder="Поиск.." required>
+        <span class="icon"><i class="fa fa-search"></i></span>
+      </form>
+      <div class="burger" aria-label="навигация"><span></span></div>
+    </div>
+  </header>
+  <main class="container">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+      <div class="section-hero swiper-slide">
+        <div class="content-hero">
+        <h2 aria-label="Проектные решения любой сложности" class="hero-h2">Проектные решения любой сложности</h2>
+        <p class="hero-p">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются
+          уделом проектантов</p>
+        <button class="hero-btn">Заказать расчёт</button>
+      </div>
+    </div>
+      <div class="swiper-slide" style="background-image: url(img/sect1-swipe.png);"></div>
+      <div class="swiper-slide" style="background-image: url(img/sect1-swipe2.png);"></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  </div>
+</div>
+    <section>
+      <div class="about-us">
+        <h2 role="presentation">О нас</h2>
+        <p role="presentation" class="about-us-text">Также как перспективное планирование создаёт необходимость включения в производственный
+          план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и
+          грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от
+          того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых
+          концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет
+          высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены
+          отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества
+          экспериментов.</p>
+      </div>
+      <div class="about-us-card">
+        <div class="auc-img">
+          <div class="auc-img-back">
+            <p role="presentation" class="auc-img-text">Принимая во внимание показатели успешности, перспективное планирование способствует
+              подготовке и реализации новых принципов</p>
+            <button class="auc-img-btn">Подробнее</button>
+          </div>
+        </div>
+        <div class="auc-img-phone">
+          <div><img class="auc-img-phone-back" src="/img/sect2.jpg" alt=""></div>
+          <p role="presentation" class="auc-img-text">Принимая во внимание показатели успешности, перспективное планирование способствует
+            подготовке и реализации новых принципов</p>
+            <button class="auc-img-btn">Подробнее</button>
+        </div>
+        <div class="auc-rectangles">
+          <div class="rectangles">
+            <img class="rectangles-img" src="img/about-us2.svg" alt="">
+            <p role="presentation" class="rectangles-text"><span>Консультация с широким активом</span><br>А также свежий взгляд на привычные
+              вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных
+              решений.</p>
+          </div>
+          <div class="rectangles">
+            <img class="rectangles-img" src="img/about-us.svg" alt="">
+            <p class="rectangles-text" role="presentation"><span>В своём стремлении повысить</span><br>Качество жизни, они забывают, что
+              сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса
+              профессионального сообщества.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-work">
+      <div class="work">
+        <h2>Как мы работаем</h2>
+        <ul class="work-step">
+          <li class="work-step-li"><a href="#">1 шаг</a></li>
+          <li class="work-step-li"><a href="#">2 шаг</a></li>
+          <li class="work-step-li"><a href="#">3 шаг</a></li>
+          <li class="work-step-li"><a href="#">4 шаг</a></li>
+        </ul>
+      <div class="work-img-laptop"></div>
+        <div class="work-text">
+          <p role="presentation"><span>Проводим консультацию</span><br>Влечет за собой процесс внедрения и модернизации приоритизации разума
+            над эмоциями. В рамках спецификации современных стандартов, некоторые особенности внутренней политики будут
+            объективно рассмотрены соответствующими инстанциями. А также представители современных социальных резервов,
+            инициированные исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь
+            частью общей картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой
+            серии независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии
+            освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны
+            к ответу.</p>
+        </div>
+        <div class="work-btn">
+          <button class="work-btn-details">Подробнее</button>
+          <button class="work-btn-contract">Договор</button>
+        </div>
+      </div>
+      <div class="work-img"></div>
+    </section>
+    <aside>
+      <h2>Часто задаваемые вопросы</h2>
+      <ul class="question-list-item">
+        <li><div class="question-item">
+          <h2> Из чего формируется конечная стоимость проекта?</h2>
+          <button class="question-btn-plus">
+            <span></span>
+            <span></span>
+          </button>
+          <p class="question-text">
+            Тут должен быть какой-то текст
+          </p>
+        </div></li>
+          <li><div class="question-item">
+          <h2> У меня есть свой проект. Сможем ли мы его доработать / реализовать?</h2>
+          <button class="question-btn-plus">
+            <span></span>
+            <span></span>
+          </button>
+          <p class="question-text">
+            Тут должен быть какой-то текст
+          </p>
+        </div></li>
+          <li><div class="question-item">
+          <h2> Я выбираю между разными компаниями. В чём ваше отличие?</h2>
+          <button class="question-btn-plus">
+            <span></span>
+            <span></span>
+          </button>
+          <p class="question-text">
+            Тут должен быть какой-то текст
+          </p>
+        </div></li>
+        <li><div class="question-item">
+          <h2> Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</h2>
+          <button class="question-btn-plus">
+            <span></span>
+            <span></span>
+          </button>
+          <p class="question-text">
+            Тут должен быть какой-то текст
+          </p>
+        </div></li>
+        <li><div class="question-item">
+          <h2> Могу ли я вернуть деньги на каком-либо из этапов работ?</h2>
+          <button class="question-btn-plus">
+            <span></span>
+            <span></span>
+          </button>
+          <p class="question-text">
+            Тут должен быть какой-то текст
+          </p>
+        </div></li>
+      </ul>
+    </aside>
+  </main>
+  <footer class="footer">
+    <div class="container footer-items">
+      <div class="footer-items-1">
+        <a href="#"><img src="img/logoFooter.png" alt="Евклид"></a>
+        <p role="presentation">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+          разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+          образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании
+          стандартных подходов.</p>
+        <div class="footer-social">
+          <a class="footer-social-fb" aria-label="фейсбук" href="#"></a>
+          <a class="footer-social-vk" aria-label="вконтакте" href="#"></a>
+          <a class="footer-social-inst" aria-label="инстаграм" href="#"></a>
+        </div>
+      </div>
+      <div class="footer-items-2">
+        <h2>Оставить заявку</h2>
+        <form class="footer-form" action=" https://jsonplaceholder.typicode.com/posts" method="POST">
+          <input class="footer-input" type="text" autocomplete="off" spellcheck="false"
+            placeholder="Фамилия, имя и отчество*" name="Username" required>
+          <input class="footer-input" type="text" autocomplete="off" spellcheck="false" placeholder="E-mail"
+            name="E-mail*" required>
+          <textarea class="footer-text-area" name="messeng" placeholder="Сообщение..."></textarea>
+          <div class="div-footer-btn">
+            <button class="footer-btn">Отправить данные</button>
+            <div>
+              <label class="checkbox-other">
+                <input type="checkbox" checked> Согласен на обработку данных
+              </label>
+          </div>
+          </div>
+        </form>
+      </div>
+      <div class="footer-items-laptop">
+        <a href="#" class="footer-logo-laptop"><img src="img/logoFooter.png" alt="Евклид"></a>
+        <div>
+          <ul class="footer-ul-laptop">
+            <li class="footer-li-laptop"><a href="#">О нас</a></li>
+            <li class="footer-li-laptop"><a href="#">Проекты</a></li>
+            <li class="footer-li-laptop"><a href="#">Отзывы</a></li>
+            <li class="footer-li-laptop"><a href="#">Договор оферты</a></li>
+            <li class="footer-li-laptop"><a href="#">Договор подряда</a></li>
+            <li class="footer-li-laptop"><a href="#">Конфиденциальность</a></li>
+            <li class="footer-li-laptop"><a href="#">Партнерское соглашение</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a class="footer-social-fb" aria-label="Фэйсбук" href="#"></a>
+          <a class="footer-social-vk" aria-label="Вконтакте" href="#"></a>
+          <a class="footer-social-inst" aria-label="Инстаграм" href="#"></a>
+        </div>
+      </div>
+      <div class="footer-items-3">
+        <a href="#">О нас</a>
+        <a href="#">Проекты</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Договор оферты</a>
+        <a href="#">Договор подряда</a>
+        <a href="#">Конфиденциальность</a>
+        <a href="#">Партнёрское соглашение</a>
+      </div>
+    </div>
+  </footer>
+<script>
+  var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
+  effect: 'fade',
+
+})
+</script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
